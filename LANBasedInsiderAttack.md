@@ -33,8 +33,6 @@
 
 ### DOS ATTACK:
 - In computing, a denial-of-service attack is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network.
-### What cause DoS attacks?
-- A distributed denial-of-service (DDoS) attack occurs when multiple systems flood the bandwidth or resources of a targeted system, usually one or more web servers. A DDoS attack uses more than one unique IP address or machines, often from thousands of hosts infected with malware.
 
 ### The following steps are to be followed to perform this attack
 1. Open ettercap , scan hosts and add the victim's IP address to the target.
@@ -47,6 +45,8 @@
 #  Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
 
 - To peform this task first we need to make ec_uid and ec_guid values as zero and give some domain name and assign the attackers IP address.
+
+![Screenshot (315)](https://user-images.githubusercontent.com/123251017/227991197-e922c1d8-5063-494c-888a-035b9276a975.png)
 
 ![image](https://user-images.githubusercontent.com/68326118/227768095-16ce5d30-d4d8-42fc-a58e-01e464aa4a53.png)
 
@@ -67,11 +67,10 @@
 
 #  Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection. 
 
- - Open ettercap tool , scan the host 
- - select the vicitms ip and add to target 1 
- - Start MITM Attacks of ARP Poisoning 
- - And select the SSLStrip plugin 
-### Here we can see the above output 
+ - 1)Open ettercap tool and scan the host 
+ - 2)select the vicitms ip and add to target 1 
+ - 3)Start MITM Attacks of ARP Poisoning 
+ - 4)And select the SSLStrip plugin 
  
 ![image](https://user-images.githubusercontent.com/68326118/227952722-2608aaac-f09f-428e-bafc-312c185c2427.png)
 
