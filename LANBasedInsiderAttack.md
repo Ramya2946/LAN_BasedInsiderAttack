@@ -11,23 +11,23 @@
 # Performing Password stealing (over plaintext) using ARP Cache Poisoning attacks
 - We first scan for host ip address
 
-![image](https://user-images.githubusercontent.com/68326118/227765272-f8acc10e-79b6-4241-acbd-a3d987a29a71.png)
+![Screenshot (315)](https://user-images.githubusercontent.com/123251017/227991197-e922c1d8-5063-494c-888a-035b9276a975.png)
+
 
 - We get the list of scanned Host list in the Ettercap as shown in the image , here we can find our host ip address
 
-![image](https://user-images.githubusercontent.com/68326118/227765369-be70a619-bd97-405a-a8d9-cd2f594ef4d2.png)
+![Screenshot (316)](https://user-images.githubusercontent.com/123251017/227992069-07281334-6560-4d1d-9ec2-75ed34fc4da7.png)
 
 - Then we select our host ip and add it to the target. And choose ARP poisoning from MITM
 
-![image](https://user-images.githubusercontent.com/68326118/227765465-eb9d0e97-a971-4239-aafe-a386a2ae836e.png)
-
 - Now open a web page in the victims machine. And enter the login credentials.
 
-![image](https://user-images.githubusercontent.com/68326118/227765555-53060835-0f2c-4dd8-832a-6a7f1da68ee5.png)
+![Screenshot (318)](https://user-images.githubusercontent.com/123251017/227992948-c496d7db-8f29-4fa4-a2ab-92254b552b02.png)
 
 - Now when the victim enters the login credentials we can see the USER & PASS in the attackers window.
 
-![image](https://user-images.githubusercontent.com/68326118/227765661-43c8ec4e-f382-4f99-8273-5a053be49864.png)
+![Screenshot (319)](https://user-images.githubusercontent.com/123251017/227993599-21b69ce9-1cf6-4f9b-9be1-5ba2b9bc73f2.png)
+
 
 # Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks 
 
@@ -39,14 +39,12 @@
 2. Start ARP Poisoning and select DOS attack plugin and enter victim's IP address and fake host IP address
 3. To check the website is accessable or not we will open any site in the victim's machine.
 4. Then we can see that the page does'nt respond .
-( the page appears like tihs)
-![image](https://user-images.githubusercontent.com/68326118/227771153-2b1c763b-fb6e-463d-a6e7-ea3f947546fd.png)
+
+![Screenshot (320)](https://user-images.githubusercontent.com/123251017/227993985-1c68b259-cdc8-4678-b1b2-c01834620e34.png)
 
 #  Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
 
-- To peform this task first we need to make ec_uid and ec_guid values as zero and give some domain name and assign the attackers IP address.
-
-![Screenshot (315)](https://user-images.githubusercontent.com/123251017/227991197-e922c1d8-5063-494c-888a-035b9276a975.png)
+- Make the ec_uid and ec_guid values as zero ,give some domain name and assign the attackers IP address.
 
 ![image](https://user-images.githubusercontent.com/68326118/227768095-16ce5d30-d4d8-42fc-a58e-01e464aa4a53.png)
 
@@ -55,15 +53,11 @@
 ![image](https://user-images.githubusercontent.com/68326118/227768060-efe57151-bf1e-4b9c-a06c-c5cc0578e629.png)
 
 - After doing this we start apache2 and open the ettercap and scan for the hosts and add the attackers host to the target. And choose ARP Spoofing and choose DNS spoofing pulgin
-- Then when we open snapchat.com in the attackers web , then we can see the spoofed web page.
-
-`snapchat.com` spoofing
+- Then when we open snapchat.com in the attacker's machine web browser , then we can see the spoofed web page.
 
 ![image](https://user-images.githubusercontent.com/68326118/227766876-3e0a3252-2be0-4a24-897d-6d7221a833a1.png)
 
-`DNS Spoofed page`
-
-![image](https://user-images.githubusercontent.com/68326118/227767905-73f6ada5-ba86-40d9-9a61-a9f4ec16ff71.png)
+![Screenshot (325)](https://user-images.githubusercontent.com/123251017/227994799-4596da6d-83ac-4d48-b34d-2d7c78d8fd3d.png)
 
 #  Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection. 
 
@@ -75,5 +69,5 @@
 ![image](https://user-images.githubusercontent.com/68326118/227952722-2608aaac-f09f-428e-bafc-312c185c2427.png)
 
 - We can check the ssl striping on the victim's machine 
+![Screenshot (327)](https://user-images.githubusercontent.com/123251017/227995721-7881456b-462d-4a6f-bafb-2064a0a60843.png)
 
-![image](https://user-images.githubusercontent.com/68326118/227953206-e0ff1f37-edc3-4133-85a8-87b71294d157.png)
