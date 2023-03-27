@@ -18,13 +18,13 @@
 
 ![Screenshot (316)](https://user-images.githubusercontent.com/123251017/227992069-07281334-6560-4d1d-9ec2-75ed34fc4da7.png)
 
-- Then we select our host ip and add it to the target. And choose ARP poisoning from MITM
-
-- Now open a web page in the victims machine. And enter the login credentials.
+- Select host ip address and add it to the target.
+- Choose ARP poisoning from MITM
+- Now open a web page in the victims machine and enter the login credentials.
 
 ![Screenshot (318)](https://user-images.githubusercontent.com/123251017/227992948-c496d7db-8f29-4fa4-a2ab-92254b552b02.png)
 
-- Now when the victim enters the login credentials we can see the USER & PASS in the attackers window.
+- Whenictim enters the login credentials, we can see the USER & PASS are captured.
 
 ![Screenshot (319)](https://user-images.githubusercontent.com/123251017/227993599-21b69ce9-1cf6-4f9b-9be1-5ba2b9bc73f2.png)
 
@@ -52,8 +52,10 @@
 
 ![image](https://user-images.githubusercontent.com/68326118/227768060-efe57151-bf1e-4b9c-a06c-c5cc0578e629.png)
 
-- After doing this we start apache2 and open the ettercap and scan for the hosts and add the attackers host to the target. And choose ARP Spoofing and choose DNS spoofing pulgin
-- Then when we open snapchat.com in the attacker's machine web browser , then we can see the spoofed web page.
+-  start apache2 and then open the ettercap 
+- scan for the hosts and add the attackers host to the target.
+- Choose ARP Spoofing and then DNS spoofing pulgin
+- When we open snapchat.com in the attacker's machine web browser , we can see the spoofed web page.
 
 ![image](https://user-images.githubusercontent.com/68326118/227766876-3e0a3252-2be0-4a24-897d-6d7221a833a1.png)
 
@@ -61,13 +63,13 @@
 
 #  Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection. 
 
- - 1)Open ettercap tool and scan the host 
- - 2)select the vicitms ip and add to target 1 
- - 3)Start MITM Attacks of ARP Poisoning 
- - 4)And select the SSLStrip plugin 
+ 1)Open ettercap tool and scan the host 
+ 2)select the vicitm's ip address and add to target 1 
+ 3)Start MITM Attacks of ARP Poisoning 
+ 4)And select the SSL Strip plugin 
  
 ![image](https://user-images.githubusercontent.com/68326118/227952722-2608aaac-f09f-428e-bafc-312c185c2427.png)
 
-- We can check the ssl striping on the victim's machine 
+-  ssl striping on the victim's machine 
 ![Screenshot (327)](https://user-images.githubusercontent.com/123251017/227995721-7881456b-462d-4a6f-bafb-2064a0a60843.png)
 
