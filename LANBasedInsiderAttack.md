@@ -88,11 +88,11 @@
 
 # SCAN Poisoner
 ### scan_poisoner scans if someone is poisoning between the user machine and the hosts in the scanned list. It checks whether if two hosts in the list have same MAC address.
-- Open ettercap and select the scan_poisoner plugin.
-- Open ettercap in another machine and scan the hosts.
-- Add the first machine's IP address as Target.
-- Start the ARP Poisoning.
-- We can see that one host is replying to other in the lists of hosts that captured by scan_poisoner.
+1)Open ettercap and select the scan_poisoner plugin.
+2)Open ettercap in another machine and scan the hosts.
+3)Add the first machine's IP address as Target.
+4)Start the ARP Poisoning.
+5) We can see that one host is replying to other in the lists of hosts that captured by scan_poisoner.
 
 
 - if there is no host poisoning other host the output will be like below
