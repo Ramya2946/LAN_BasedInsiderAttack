@@ -1,4 +1,4 @@
-# LAN_BasedInsiderAttack.md
+# LANBasedInsiderAttack.md
 # ETTERCAP
 
 
@@ -73,3 +73,32 @@
 -  ssl striping on the victim's machine 
 ![Screenshot (327)](https://user-images.githubusercontent.com/123251017/227995721-7881456b-462d-4a6f-bafb-2064a0a60843.png)
 
+# arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks
+### arp_cop: It reports suspicious ARP activity by passively monitoring ARP requests and replies. It can report ARP posioning attempts, or simple IP-conflicts or IP-changes. We follow following steps to perform the attack
+- Open ettercap and select arp_cop plugin.
+- Open ettercap in another machine and scan the hosts.
+- Add the first machine's IP address as Target.
+
+![image](https://user-images.githubusercontent.com/68326118/228004106-ac3f82de-af6f-4dc2-8667-dc6995d64b32.png)
+
+- Start the ARP poisoning in second machine.
+- We can see in first machine's window that it reports the ARP activity.
+
+![image](https://user-images.githubusercontent.com/68326118/228004219-3596fcc9-60ff-4ae8-b779-bbf527e378ef.png)
+
+# SCAN Poisoner
+### scan_poisoner scans if someone is poisoning between the user machine and the hosts in the scanned list. It checks whether if two hosts in the list have same MAC address.
+- Open ettercap and select the scan_poisoner plugin.
+- Open ettercap in another machine and scan the hosts.
+- Add the first machine's IP address as Target.
+- Start the ARP Poisoning.
+- We can see that one host is replying to other in the lists of hosts that captured by scan_poisoner.
+
+
+- if there is no host poisoning other host the output will be like below
+
+![image](https://user-images.githubusercontent.com/68326118/228006787-18b8b82c-f1b5-4bdd-a3ab-edb92dfe90e3.png)
+
+- if there is host poisoning other host the output will be like below 
+- 
+![image](https://user-images.githubusercontent.com/68326118/228007089-6a2ad6b4-0021-4c28-80ff-0e88a57d0d49.png)
