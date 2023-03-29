@@ -54,14 +54,14 @@
 
 -  start apache2 and then open the ettercap 
 - scan for the hosts and add the attackers host to the target.
-- Choose ARP Spoofing and then DNS spoofing pulgin
+- Choose ARP Spoofing and then DNS spoofing plugin
 - When we open snapchat.com in the attacker's machine web browser , we can see the spoofed web page.
 
 ![image](https://user-images.githubusercontent.com/68326118/227766876-3e0a3252-2be0-4a24-897d-6d7221a833a1.png)
 
 ![Screenshot (325)](https://user-images.githubusercontent.com/123251017/227994799-4596da6d-83ac-4d48-b34d-2d7c78d8fd3d.png)
 
-#  Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection. 
+#  Invoke ‘sslstrip tool’ for stealing passwords from any machine that is connected to a LAN by stripping the HTTPS connection. 
 
  1)Open ettercap tool and scan the host 
  2)select the vicitm's ip address and add to target 1 
