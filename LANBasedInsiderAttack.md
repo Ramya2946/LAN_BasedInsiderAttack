@@ -86,7 +86,6 @@
 
 ![image](https://user-images.githubusercontent.com/68326118/228004219-3596fcc9-60ff-4ae8-b779-bbf527e378ef.png)
 
-# SCAN Poisoner
 ### scan_poisoner scans if someone is poisoning between the user machine and the hosts in the scanned list. It checks whether if two hosts in the list have same MAC address.
 1)Open ettercap and select the scan_poisoner plugin.
 2)Open ettercap in another machine and scan the hosts.
